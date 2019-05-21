@@ -1,0 +1,5 @@
+{% set config = pillar.get('electrumx', {}).get('config', {}) %}
+
+{% for name, value in config.items() %}
+{{ name }}={{ value }}
+{% endfor %}

@@ -1,5 +1,5 @@
-Electrumx saltstack formula
-===========================
+ElectrumX server saltstack formula
+==================================
 
 Based on https://github.com/bauerj/electrumx-installer
 
